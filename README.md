@@ -12,7 +12,7 @@ cd infra_sp2/infra/
 ```
 Запускаем контейнеры, выполняем миграции, проводим сбор статики
 ```
-docker-compose -d --build
+docker-compose up -d --build
 docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py collectstatic --no-input
 ```
