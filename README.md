@@ -17,7 +17,7 @@ docker-compose exec web python manage.py collectstatic --no-input
 Для остановки контейнеров :
 ```
 docker-compose down -v
-
+```
 ## Шаблон наполнения ENV-файла
 ```
 DB_ENGINE=django.db.backends.postgresql
