@@ -41,6 +41,8 @@ DB_HOST=db
 
 DB_PORT=5432
 
+SECRET_KEY = 'YourSecretKey'
+
 ```
 # Python, Django, DRF, PostgreSQL, Docker-compose.
 
