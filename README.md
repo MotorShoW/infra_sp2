@@ -44,4 +44,4 @@ DB_PORT=5432
 ```
 # Python, Django, DRF, PostgreSQL, Docker-compose.
 
-### Код написан https://github.com/MotorShoW
+### Код написан [MotorShoW](https://github.com/MotorShoW).
